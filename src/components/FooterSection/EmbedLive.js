@@ -8,12 +8,12 @@ import { styWrapper } from './styles';
 function EmbedLive() {
   const title = `Live Wedding ${THE_BRIDE}`;
   return (
-    <div id="live-wedding-section" css={styWrapper(false)}>
+    <div id="live-wedding-section" css={styWrapper(false)} style={{ background: '#e8d2ce'}}>
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <WithAnimation>
-              <h3 className="pr-co main-font" style={{ marginTop: '2em', fontSize: '3rem' }}>
+              <h3 className="pr-co main-font" style={{ marginTop: '2em', fontSize: '3rem', fontWeight: 'bold' }}>
                 {title}
               </h3>
               <Countdown />
@@ -32,7 +32,6 @@ function EmbedLive() {
           />
         </div>
       </div>
-      <hr className="border" style={{ marginTop: '2em', marginBottom: '0' }} />
     </div>
   );
 }

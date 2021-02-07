@@ -1,8 +1,14 @@
 import { css } from '@emotion/core';
-import Background from '@assets/img/pattern-2.png';
+import Background from './assets/flower-footer.png';
 
 export const styWrapper = (withBackground = true) => css`
   background-color: var(--secondary-bg);
+  ${withBackground &&
+  `background-size: initial;
+  background-image: url(${Background});
+  background-position: center;
+  background-repeat: no-repeat;`}
+
   width: 100%;
   padding-bottom: 1px;
 

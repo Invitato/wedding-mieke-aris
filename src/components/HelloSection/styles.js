@@ -5,9 +5,10 @@ export const styWrapper = css`
   width: 100%;
   padding: var(--size-content-padding);
   background-color: #fefdfd;
-  background-size: cover;
+  background-size: contain;
   background-image: url(${Background});
-  background-position: center;
+  background-position: bottom;
+  background-repeat: no-repeat;
 
   @media screen and (min-width: 500px) {
     background-size: contain;

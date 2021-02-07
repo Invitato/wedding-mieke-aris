@@ -10,8 +10,9 @@ function FooterSection() {
     <>
       <EmbedLive />
       <div css={styWrapper}>
-        <div className="secondary-bg" style={{ padding: '0 16px' }}>
+        <div style={{ padding: '0 16px' }}>
           <div className="row" style={{ padding: '16px 8px' }}>
+            <hr className="border" style={{ marginTop: '16px' }} />
             <div className="col-md-8 col-md-offset-2 text-center">
               <WithAnimation>
                 <p>

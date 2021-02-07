@@ -4,13 +4,14 @@ import { bool } from 'prop-types';
 import { GIRL_NAME, GIRL_PARENT_NAME, BOY_NAME, BOY_PARENT_NAME } from '@/constants';
 
 import WithAnimation from '../WithAnimation';
+import Image from './assets/1.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
   return (
     <Fragment>
       <div css={styWrapper}>
-        <div className="container" style={{ paddingTop: '0', paddingBottom: '12em' }}>
+        <div className="container" style={{ paddingTop: '0', paddingBottom: '8em' }}>
           <WithAnimation>
             <div className="text__salam">
               <h4>Bismillahirrahmanirrahim</h4>
@@ -21,6 +22,13 @@ function HelloSection({ isInvitation }) {
               </p>
             </div>
           </WithAnimation>
+          <div>
+            <img
+              src={Image}
+              style={{ display: 'block', margin: '0 auto 24px auto', maxWidth: '200px', borderRadius: '32px' }}
+              alt=""
+            />
+          </div>
           <div className="row">
             <WithAnimation delay={300}>
               <div className="col-md-8 col-md-offset-2 text-center">
@@ -44,6 +52,7 @@ function HelloSection({ isInvitation }) {
           </div>
         </div>
       </div>
+      <div style={{ height: '2em' }} />
     </Fragment>
   );
 }
