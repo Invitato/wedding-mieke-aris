@@ -1,5 +1,4 @@
 import { css } from '@emotion/core';
-import Background from './img/bg-cream.png';
 
 export const styWrapper = (withBackground) => css`
   width: 100%;
@@ -14,13 +13,6 @@ export const styWrapper = (withBackground) => css`
       color: var(--font-primary);
     }
   }
-
-  ${withBackground &&
-  `
-    background-image: url(${Background});
-    background-size: cover;
-    background-position: bottom;
-  `}
 
   .sub-title {
     color: #828282;

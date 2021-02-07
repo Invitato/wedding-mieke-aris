@@ -22,7 +22,7 @@ function WeddingSection({ isInvitation }) {
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
             <WithAnimation>
-              <h3 className="main-font color__primary text__title">Akad Nikah & Resepsi</h3>
+              <h3 className="main-font color__primary text__title">Akad & Tasyakuran Pernikahan</h3>
               <p className="text__sub">Insya Allah akan diselenggarakan pada:</p>
             </WithAnimation>
           </div>

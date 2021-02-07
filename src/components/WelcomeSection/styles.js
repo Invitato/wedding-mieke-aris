@@ -196,6 +196,10 @@ export const styWrapper = css`
     text-transform: uppercase;
   }
 
+  .text__title-wedding {
+    text-shadow: 2px 2px #a58b88;
+  }
+
   .to-dearest {
     font-size: 16px;
     color: #f1f1f1b3;
@@ -225,12 +229,15 @@ export const styWrapper = css`
   }
 
   @media screen and (max-width: 500px) {
+    margin-top: -25rem;
+
     h1 {
       font-size: 6rem;
     }
 
     .text__date {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
+      margin-bottom: -16px;
     }
 
     img {
