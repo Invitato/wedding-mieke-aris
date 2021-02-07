@@ -1,5 +1,4 @@
 import { css } from '@emotion/core';
-import iconMusic from './assets/music-solid.svg';
 
 export const styMusicFloating = css`
   .hide {

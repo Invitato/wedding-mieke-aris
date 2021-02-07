@@ -18,16 +18,18 @@ function EmbedLive() {
               </h3>
               <Countdown />
             </WithAnimation>
-            <iframe
-              title={title}
-              width="100%"
-              height="315"
-              src={YOUTUBE_EMBED}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
           </div>
+        </div>
+        <div className="row" style={{ paddingTop: '1rem' }}>
+          <iframe
+            title={title}
+            width="100%"
+            height="315"
+            src={YOUTUBE_EMBED}
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </div>
       </div>
       <hr className="border" style={{ marginTop: '2em', marginBottom: '2em' }} />
