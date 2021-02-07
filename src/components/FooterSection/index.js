@@ -11,7 +11,7 @@ function FooterSection() {
       <EmbedLive />
       <div css={styWrapper}>
         <div className="secondary-bg" style={{ padding: '0 16px' }}>
-          <div className="row padding__content">
+          <div className="row" style={{ padding: '16px 8px' }}>
             <div className="col-md-8 col-md-offset-2 text-center">
               <WithAnimation>
                 <p>
@@ -19,7 +19,8 @@ function FooterSection() {
                   Tanpa mengurangi rasa hormat, kami mohon doa restu dari Bapak/ Ibu/ Saudara dan semoga dapat menjalin
                   tali silaturahmi melalui media online. <br />
                   Merupakan suatu kebahagiaan bagi kami apabila Bapak/ Ibu/ Saudara memberikan doa restu pada kedua
-                  mempelai. Atas doa & perhatian Bapak/ Ibu/ Saudara kami ucapkan terima kasih dan semoga Allah selalu
+                  mempelai.
+                  <br /> Atas doa & perhatian Bapak/ Ibu/ Saudara kami ucapkan terima kasih dan semoga Allah selalu
                   memberi perlindungan dan kesehatan bagi kita semua.
                 </p>
               </WithAnimation>

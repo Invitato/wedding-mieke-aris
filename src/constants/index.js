@@ -17,7 +17,8 @@ export const BOY_PARENT_NAME = `Putra dari Bapak H. Mahfudl <br />& Ibu Hj. Karm
 /**
  * @constants - SEO Requirement
  */
-export const SEO_IMAGE = 'https://user-images.githubusercontent.com/10141928/107137891-48339f00-6943-11eb-83ad-e54cfc9decf2.jpg';
+export const SEO_IMAGE =
+  'https://user-images.githubusercontent.com/10141928/107137891-48339f00-6943-11eb-83ad-e54cfc9decf2.jpg';
 export const SEO_URL = 'https://invitato.net/';
 export const SEO_TITLE = `The Wedding of ${THE_BRIDE} by Invitato.net`;
 export const SEO_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - ${THE_BRIDE}`;
@@ -61,8 +62,8 @@ export const SOUND_URL = 'https://youtu.be/1oD8_8HnH1s';
  * @constant
  * Live streaming & youtube Live
  */
-export const YOUTUBE_LINK = 'https://youtu.be/Hfd7SJv0_0M';
-export const YOUTUBE_EMBED = 'https://www.youtube.com/embed/Hfd7SJv0_0M';
+export const YOUTUBE_LINK = 'https://youtu.be/cowQGWWTEhM';
+export const YOUTUBE_EMBED = 'https://www.youtube.com/embed/cowQGWWTEhM';
 
 /**
  * @constant

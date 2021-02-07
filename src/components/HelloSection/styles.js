@@ -1,9 +1,18 @@
 import { css } from '@emotion/core';
+import Background from './assets/flower.png';
 
-export const styWrapper = (withBackground) => css`
+export const styWrapper = css`
   width: 100%;
   padding: var(--size-content-padding);
   background-color: #fefdfd;
+  background-size: cover;
+  background-image: url(${Background});
+  background-position: center;
+
+  @media screen and (min-width: 500px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   .text__salam {
     text-align: center;
@@ -25,7 +34,6 @@ export const styWrapper = (withBackground) => css`
   .parent {
     margin: -16px 16px 16px 16px;
     color: var(--font-primary);
-    font-weight: bold;
   }
 
   p {
@@ -36,6 +44,7 @@ export const styWrapper = (withBackground) => css`
   .text__bride,
   .text__groom {
     font-size: 3rem;
+    font-weight: bold;
   }
 
   .img__symbol {

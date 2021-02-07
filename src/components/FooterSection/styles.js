@@ -6,14 +6,6 @@ export const styWrapper = (withBackground = true) => css`
   width: 100%;
   padding-bottom: 1px;
 
-  ${withBackground &&
-  `background-image: url(${Background});
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-repeat-y: no-repeat;
-  background-repeat-x: repeat;
-  background-size: auto;`}
-
   .img__arrow {
     display: block;
     margin: 0 auto;

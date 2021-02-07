@@ -9,8 +9,8 @@ import { styWrapper } from './styles';
 function HelloSection({ isInvitation }) {
   return (
     <Fragment>
-      <div css={styWrapper(false)} className="bg__secondary">
-        <div className="container" style={{ paddingTop: '2em' }}>
+      <div css={styWrapper}>
+        <div className="container" style={{ paddingTop: '0', paddingBottom: '12em' }}>
           <WithAnimation>
             <div className="text__salam">
               <h4>Bismillahirrahmanirrahim</h4>

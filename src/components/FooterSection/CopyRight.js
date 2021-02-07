@@ -23,7 +23,6 @@ function CopyRight() {
                 Flat Icon
               </a>
               <br />
-              <br /> <br />
               Created with Love by{' '}
               <a href={URL_INVITATO} {...REFERER} className="pr-co">
                 Invitato.net

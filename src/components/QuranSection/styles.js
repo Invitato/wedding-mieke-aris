@@ -1,22 +1,27 @@
 import { css } from '@emotion/core';
-import Background from '@assets/img/pattern.png';
+import Background from './assets/wave.svg';
 
 export const styWrapper = css`
-  padding: var(--size-content-padding);
-  background: var(--secondary-bg);
-  background-image: url(${Background});
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-repeat-y: no-repeat;
-  background-repeat-x: repeat;
-  background-size: auto;
+  background: #f4e7e4;
 
-  @media screen and (max-width: 500px) {
-    min-height: 100vh;
+  @media screen and (min-width: 700px) {
+    padding-top: 16px;
+  }
+
+  .hr__border {
+    display: block;
+    border: 1px solid black;
+    width: 70%;
+    margin-bottom: 24px;
   }
 
   .title {
     font-size: 4em;
+  }
+
+  .text__title {
+    font-size: 2rem;
+    font-weight: bold;
   }
 
   .sub-title {
@@ -47,7 +52,6 @@ export const styWrapper = css`
   .text__latin {
     color: var(--font-primary);
     font-size: 14px;
-    margin-bottom: 12em;
   }
 
   @media screen and (max-width: 500px) {
@@ -76,5 +80,17 @@ export const styDivider = css`
     max-width: 200px;
     height: auto;
     margin: 0 auto;
+  }
+`;
+
+export const styTransition = css`
+  background-color: #fefdfd;
+  background-size: cover;
+  background-image: url(${Background});
+  background-position: bottom;
+  min-height: 20vh;
+
+  @media screen and (min-width: 700px) {
+    min-height: 38vh;
   }
 `;

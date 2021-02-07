@@ -6,8 +6,8 @@
   --font-primary: #cfa453;
   --font-primary-option: #cfacaa;
   --font-secondary: var(--font-black-ui);
-  --secondary-bg: #4f010e;
-  --primary-bg: #ecf0f1;
+  --secondary-bg: #f4e7e4;
+  --primary-bg: #fefefe;
 
   /* SIZE DEFAULT */
   --size-min-height: 60vh;
@@ -68,6 +68,12 @@ body {
 .secondary-bg {
   background: var(--secondary-bg) !important;
   background-color: var(--secondary-bg) !important;
+}
+
+.bg__primary,
+.primary-bg {
+  background: var(--primary-bg) !important;
+  background-color: var(--primary-bg) !important;
 }
 
 .main-font {

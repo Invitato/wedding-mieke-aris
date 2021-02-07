@@ -32,7 +32,7 @@ function EmbedLive() {
           />
         </div>
       </div>
-      <hr className="border" style={{ marginTop: '2em', marginBottom: '2em' }} />
+      <hr className="border" style={{ marginTop: '2em', marginBottom: '0' }} />
     </div>
   );
 }
