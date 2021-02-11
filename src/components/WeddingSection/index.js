@@ -39,7 +39,7 @@ function WeddingSection({ isInvitation }) {
             </WithAnimation>
             <WithAnimation delay={800} className="col-md-6 col-sm-6">
               <WeddingInfoBox
-                title="Resepsi Pernikahan"
+                title="Tasyakuran Pernikahan"
                 time={WEDDING_RESEPSI_TIME}
                 date={WEDDING_RESEPSI}
                 description={WEDDING_LOCATION}

@@ -44,11 +44,11 @@ export const EPOCH_END_EVENT = 1615014000;
  * @constants - wedding information
  */
 export const WEDDING_AKAD = 'Kamis, 04 Maret 2021';
-export const WEDDING_AKAD_TIME = '07.00 - Selesai';
-export const WEDDING_RESEPSI = 'Sabtu, 06 Maret 2021';
+export const WEDDING_AKAD_TIME = '07.00 WIB';
+export const WEDDING_RESEPSI = 'Kamis, 04 Maret 2021';
 export const WEDDING_RESEPSI_TIME = '11.00 - 14.00 WIB';
-export const WEDDING_LOCATION = `Ballroom PO Hotel <br /> Jl. Pemuda No.118 Semarang`;
-export const WEDDING_LOCATION_AKAD = 'Mushola Darussalam Semarang';
+export const WEDDING_LOCATION = `PO Hotel Semarang<br /> Paragon Mall, Jalan Pemuda, Semarang`;
+export const WEDDING_LOCATION_AKAD = WEDDING_LOCATION;
 export const WEDDING_DATE = '06.03.2021';
 
 /**
