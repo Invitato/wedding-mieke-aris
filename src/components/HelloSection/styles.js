@@ -1,13 +1,12 @@
 import { css } from '@emotion/core';
-import Background from './assets/flower.png';
+import Background from './assets/flower-bg.jpeg';
 
 export const styWrapper = css`
   width: 100%;
   padding: var(--size-content-padding);
   background-color: #fefdfd;
-  background-size: contain;
   background-image: url(${Background});
-  background-position: bottom;
+  background-position: bottom left;
   background-repeat: no-repeat;
 
   @media screen and (min-width: 500px) {

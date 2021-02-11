@@ -52,7 +52,6 @@ function HelloSection({ isInvitation }) {
           </div>
         </div>
       </div>
-      <div style={{ height: '2em' }} />
     </Fragment>
   );
 }
