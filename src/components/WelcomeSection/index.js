@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { object, string, bool, func } from 'prop-types';
 import { animateScroll } from 'react-scroll';
+import Typist from 'react-typist';
+import 'react-typist/dist/standalone/Typist';
+import 'react-typist/dist/Typist.css';
 
 import { THE_BRIDE } from '@/constants';
 import WithAnimation from '../WithAnimation/UseIntersect';
@@ -56,7 +59,11 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               <WithAnimation>
                 <img src={WeddingImg} alt="wedding-dinda-indra" />
                 <h2 className="text__date">The wedding of</h2>
-                <h1 className="text__title-wedding">{THE_BRIDE}</h1>
+                <h1 className="text__title-wedding">
+                  <Typist cursor={{ show: true, blink: true, element: '|', hideWhenDone: true, hideWhenDoneDelay: 0 }}>
+                    {THE_BRIDE}
+                  </Typist>
+                </h1>
               </WithAnimation>
             </div>
           </div>
