@@ -2,13 +2,13 @@ import React from 'react';
 import WithAnimation from '../WithAnimation';
 
 import Countdown from '../Countdown';
-import { THE_BRIDE, YOUTUBE_EMBED } from '@/constants';
+import { THE_BRIDE, YOUTUBE_EMBED, WEDDING_AKAD_TIME, WEDDING_AKAD } from '@/constants';
 import { styWrapper } from './styles';
 
 function EmbedLive() {
   const title = `Live Wedding ${THE_BRIDE}`;
   return (
-    <div id="live-wedding-section" css={styWrapper(false)} style={{ background: '#e8d2ce'}}>
+    <div id="live-wedding-section" css={styWrapper(false)} style={{ background: '#e8d2ce' }}>
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -17,6 +17,7 @@ function EmbedLive() {
                 {title}
               </h3>
               <Countdown />
+              <p>{`Live: ${WEDDING_AKAD_TIME} | ${WEDDING_AKAD}`}</p>
             </WithAnimation>
           </div>
         </div>

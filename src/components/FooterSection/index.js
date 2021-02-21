@@ -2,6 +2,8 @@ import React from 'react';
 import WithAnimation from '../WithAnimation';
 import CopyRight from './CopyRight';
 import EmbedLive from './EmbedLive';
+import GiftCard from '../GiftCard';
+
 import { styWrapper } from './styles';
 import { THE_BRIDE } from '@/constants';
 
@@ -9,6 +11,7 @@ function FooterSection() {
   return (
     <>
       <EmbedLive />
+      <GiftCard />
       <div css={styWrapper}>
         <div style={{ padding: '0 16px' }}>
           <div className="row" style={{ padding: '16px 8px' }}>

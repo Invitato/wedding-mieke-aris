@@ -37,8 +37,8 @@ export const GOOGLE_MAPS_ADDRESS = 'PO Hotel Semarang, Jl. Pemuda No.118, Semara
  * use this website for convert local time to epoch time
  * https://www.epochconverter.com/
  */
-export const EPOCH_START_EVENT = 1615003200;
-export const EPOCH_END_EVENT = 1615014000;
+export const EPOCH_START_EVENT = 1614816000;
+export const EPOCH_END_EVENT = 1614841200;
 
 /**
  * @constants - wedding information
@@ -75,4 +75,4 @@ export const URL_WA_INVITATO =
   'https://wa.me/+628112778189?text=Hi%20Kak,%20aku%20mau%20pesan%20undangan%20online%20nih!';
 
 export const API_HOSTNAME =
-  'https://script.google.com/macros/s/AKfycbwFLOQwcLZkTf36FmpJhZI7KJ_x4r5Hk9TZTD3zpCL3Sos_C69AQtAkiA/exec';
+  'https://script.google.com/macros/s/AKfycbzwqDrArwmp7qJDrI6SUTitIrZ5pKeHokCTzsBma8NOpGk98vK3xmOpAQ/exec';
