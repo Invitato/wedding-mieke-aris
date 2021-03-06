@@ -62,8 +62,8 @@ export const SOUND_URL = 'https://youtu.be/1oD8_8HnH1s';
  * @constant
  * Live streaming & youtube Live
  */
-export const YOUTUBE_LINK = 'https://youtu.be/cowQGWWTEhM';
-export const YOUTUBE_EMBED = 'https://www.youtube.com/embed/cowQGWWTEhM';
+export const YOUTUBE_LINK = 'https://youtu.be/UbrR70emslQ';
+export const YOUTUBE_EMBED = 'https://www.youtube.com/embed/UbrR70emslQ';
 
 /**
  * @constant
